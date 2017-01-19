@@ -70,3 +70,29 @@ section {
     clear: both;
     height: 0;
 }
+header {
+    position: relative;
+}
+
+.temp-nav {
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: block;
+}
+li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 16px;
+    text-align: center;
+}
+
+li:hover{
+    background: black;
+}
+
+nav:hover{
+    background: red;
+}
