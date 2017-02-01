@@ -178,52 +178,15 @@ div.container {
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
-  }
-
-  @media only screen and (max-width: 660px) {
+}
 
   .temp-nav {
-    width: auto;
-    float: none;
-    display: none;
-  }
-
-  #mobile {
     display: block;
     width: auto;
     padding: 0.5em;
     font-size: 2em;
     text-decoration: none;
-  }
-
-  nav:hover a {
-    display: block;
-  }
-
-  #two_column {
     float: none;
-    text-align: center;
-    border: none;
   }
 
-  div.project {
-    width: 100%;
-    margin: auto;
-  }
-
-  article p , #two_column {
-    display: none;
-  }
-}
-
-/*MOBILE*/
-@media only screen and (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-
-  .category {
-    display: block;
-  }
-}
 }
