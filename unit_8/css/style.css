@@ -176,17 +176,7 @@ div.container {
 /* Styles */
   background-image {
     width: 100%;
-    max-width: 300px;
     margin: 0 auto;
 }
-
-  .temp-nav {
-    display: block;
-    width: auto;
-    padding: 0.5em;
-    font-size: 2em;
-    text-decoration: none;
-    float: none;
-  }
 
 }
