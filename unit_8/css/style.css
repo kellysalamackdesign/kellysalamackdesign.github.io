@@ -12,6 +12,7 @@
     outline:none;
     color: black;
     padding-top: 25px;
+    z-index: 1;
 }
 
 ul {
@@ -51,7 +52,8 @@ section.module:last-child {
 }
 
 h1 {
-  padding-top: 20%;
+  padding-top: 25%;
+  line-height: 2px;
 }
 
 h3 {
@@ -82,7 +84,11 @@ section.module h2 {
   text-transform: uppercase;
   letter-spacing: 10px;
 }
-section.module p {
+
+p.test1, p.test2, p.test3, p.test4 {
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 3px;
   margin-bottom: 40px;
   font-family: helvetica, sans-serif;
   font-size: 16px;
@@ -93,15 +99,21 @@ p.left {
   text-align: left;
   padding-left: 50%;
   line-height: 50px;
+  margin-bottom: 40px;
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
 }
+
 section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
   padding: 40px 0;
+  text-align: center;
 }
 section.module.parallax {
-  height: 612px;
+  height: 675px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -119,13 +131,14 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../images/hero23.jpg");
+  background-image: url("../images/hero26.jpg");
 }
 section.module.parallax-2 {
   background-image: url("../images/page2.jpg");
 }
 section.module.parallax-3 {
   background-image: url("../images/back1.jpg");
+  text-align: center;
 }
 
 div.polaroid {
