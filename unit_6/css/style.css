@@ -81,7 +81,17 @@ header {
     left: 0;
     right: 0;
     display: block;
+    background-color: white;
+    border: none;
+    bottom: 0;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 li {
     text-decoration: none;
     display: inline-block;
@@ -94,5 +104,5 @@ li:hover{
 }
 
 nav:hover{
-    background: red;
+    background: white;
 }

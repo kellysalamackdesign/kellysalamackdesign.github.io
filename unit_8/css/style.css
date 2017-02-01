@@ -1,0 +1,155 @@
+.temp-nav {
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: white;
+    height: 50px;
+    border: none;
+    top: 0px;
+    outline:none;
+    color: black;
+    padding-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 16px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color:black;
+    font-size: 100%;
+    text-transform: lowercase;
+    font-family: helvetica;
+    letter-spacing: 5px;
+    padding: 10%;
+    display: inline;
+}
+
+a:hover{
+    background: #66ffcc;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  padding-top: 20%;
+}
+
+h3 {
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+  text-align: left;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-left: 58%;
+}
+
+h4, h5 {
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p.left {
+  text-align: left;
+  padding-left: 50%;
+  line-height: 50px;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 612px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  font-family: helvetica, sans-serif;
+  color: black;
+  font-size: 50px;
+  line-height: 200px;
+  font-weight: lighter;
+  letter-spacing: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../images/hero23.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../images/page2.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../images/back1.jpg");
+}
+
+div.polaroid {
+  padding: 10px;
+  margin: 25px;
+  width: 18%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display: inline-block;
+  float: center;
+  position: relative;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
