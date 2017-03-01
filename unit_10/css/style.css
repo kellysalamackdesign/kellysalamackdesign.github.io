@@ -34,7 +34,7 @@ a {
     text-transform: lowercase;
     font-family: helvetica;
     letter-spacing: 5px;
-    padding: 10%;
+    padding: 1em;
     display: inline;
 }
 
@@ -221,7 +221,7 @@ div.container {
   }
 
   p.left {
-      text-align: left;
+      text-align: center;
       padding-left: 0;
       line-height: 50px;
       margin-bottom: 40px;
@@ -231,7 +231,7 @@ div.container {
   }
 
   div.polaroid {
-  width: 30%;
+  width: 50%;
 }
 
 }
@@ -337,7 +337,6 @@ div.container {
   top: 0.88888889em;
 }
 .menu {
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
